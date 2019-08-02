@@ -16,8 +16,8 @@ import {FriendbotBuilder} from "./friendbot_builder";
 import {AssetsCallBuilder} from "./assets_call_builder";
 import { TradeAggregationCallBuilder } from "./trade_aggregation_call_builder";
 import axiosRetry from 'axios-retry';
+import axios from 'axios';
 
-const axios = require("axios");
 const URI = require("urijs");
 
 export const SUBMIT_TRANSACTION_TIMEOUT = 60*1000;
